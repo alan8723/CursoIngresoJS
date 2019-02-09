@@ -4,6 +4,8 @@
 */
 function mostrar()
 {
+	var usuario = prompt("cual es tu nombre?");
+	var nombre = document.getElementById("elNombre").value = usuario;
 
 }
 

@@ -41,29 +41,27 @@ function verificar()
 		else if (usuario > numeroSecreto){
 		alert("te pasaste")
 	  }
-	  switch(ganador){
-		  case ganador == true && intentos == 1:
+	  if( ganador == true && intentos == 1){
 		  alert("usted es psiquico")
-		  break;
-		  case ganador == true && intentos == 2:
-		  alert("exelente percepción")
-		  break;
-		  case ganador == true && intentos == 3:
-		  alert("esto es suerte")
-		  break;
-		  case ganador == true && intentos == 4:
-		  alert("exelente tecnica")
-		  break;
-		  case ganador == true && intentos == 5:
-		  alert("usted esta en la media")
-		  break;
-		  case ganador == true && 6 <= intentos && intentos <= 10:
-		  alert("falta tecnica")
-		  break;
-		  case ganador == true && intentos > 10:
-		  alert("afortunado en el amor!!")
-		  break;
 	  }
-  
+	    else if( ganador == true && intentos == 2){
+		  alert("exelente percepción")
+	  }
+	  else if( ganador == true && intentos == 3){
+		  alert("esto es suerte")
+	  }
+	  else if( ganador == true && intentos == 4){
+		  alert("exelente tecnica")
+	  }
+	  else if( ganador == true && intentos == 5){
+		  alert("usted esta en la media")
+	  }
+	  else if( ganador == true && 6 <= intentos && intentos <= 10){
+		  alert("Falta tecnica")
+	  }
+	  else if( ganador == true && intentos > 10){
+		  alert("Afortunado en el amor!!")
+	  }
+
 }
      

@@ -22,6 +22,16 @@ function CalcularPrecio ()
      lamparasPrecio = cantidad * 35;
      
  //A)
+ switch(cantidad){
+     case 5:
+     if(marca== "ArgentinaLuz"){
+         resultado = lamparasPrecio * 0.5;
+     }
+              else{
+
+         }
+     break;
+ }
      if(cantidad < 3 ){
         precioFinal = document.getElementById("precioDescuento").value = lamparasPrecio;
      }

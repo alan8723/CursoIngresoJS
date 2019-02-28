@@ -8,13 +8,20 @@ function mostrar()
   var respuesta=confirm("¿Ingresar numero?");
 
   while(respuesta){
-    contador ++;
-  usuario = prompt("di un numero")
+  usuario = prompt("di un numero");
   usuario = parseInt(usuario);
 
   while(isNaN(usuario)){
-    usuario = prompt("dije un numero >:V")
+    usuario = prompt("dije un numero >:V");
+    usuario = parseInt(usuario);
   }
+  if (usuario >= 0){
+    positivo += usuario;
+  }else{
+    negativo *= usuario
+  }
+
+  respuesta=confirm("¿Ingresar otro numero?");
 
   }
 
